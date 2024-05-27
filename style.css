@@ -1,0 +1,82 @@
+body {
+    background-color: #88c88a;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main-content {
+    background-color: #fefefe;
+    padding: 6px;
+    /* padding: 17px; */
+    margin: 35px 100px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+}
+h1 {
+    color: #50824c;
+}
+form {
+    display: flex;
+}
+
+.input{
+    /* border: 1px solid blue; */
+    margin: 4px;
+    padding: 4px;
+    width: 40vw;
+    /* display: flex; */
+}
+.name{
+    color: #7cc37d;
+    width: 30vw;
+    height: 3vh;
+}
+.email {
+    color: #7cc37d;
+    width: 30vw;
+    height: 3vh;
+}
+.phone {
+    color: #7cc37d;
+    width: 30vw;
+    height: 3vh;
+}
+select {
+    color: #7cc37d;
+    width: 30vw;
+    height: 3vh;
+}
+
+.course{
+    /* border: 1px solid violet; */
+    margin: 4px;
+    padding: 4px;
+    width: 40vw;
+}
+textarea{
+    width: 20vw;
+    height: 5vh;
+    color: #50824c;
+}
+.submit{
+    background-color: #307533;
+    color: #fff;
+    width: 35vw;
+    height: 5vh;
+}
+fieldset{
+    border: 1px solid black;
+}
+legend{
+    margin-left: 1em;
+    padding: 0.2em 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      /* background-color: lightblue; */
+      overflow: scroll;
+    }
+    form{
+        display: block;
+    }
+  }
